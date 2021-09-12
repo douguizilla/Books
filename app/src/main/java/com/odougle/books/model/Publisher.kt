@@ -1,5 +1,8 @@
 package com.odougle.books.model
 
+import org.parceler.Parcel
+
+@Parcel
 data class Publisher(
     var id: String = "",
     var name: String = ""
