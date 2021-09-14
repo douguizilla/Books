@@ -61,12 +61,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{book.available ? @string/text_book_avaible : @string/text_book_unvailable}" />
-            <!--
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{book.mediaType}"/>
-                -->
+
             <RatingBar
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
