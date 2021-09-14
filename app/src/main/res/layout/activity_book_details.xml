@@ -20,15 +20,15 @@
             android:gravity="center"
             android:orientation="vertical"
             android:padding="16dp">
-            <!--
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:background="#CCC"
-                    android:scaleType="centerInside"
-                    app:imageUrl="@{book.coverUrl}"/>
-             -->
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="#CCC"
+                android:scaleType="centerInside"
+                app:imageUrl="@{book.coverUrl}" />
+
             <TextView
                 android:id="@+id/txtTitle"
                 android:layout_width="wrap_content"
@@ -65,14 +65,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@{book.mediaType}"/>
+                android:text="@{book.mediaType}" />
 
             <RatingBar
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:isIndicator="true"
                 android:progressTint="@color/purple_500"
-                android:rating="@{book.rating}"/>
+                android:rating="@{book.rating}" />
         </LinearLayout>
     </ScrollView>
 
