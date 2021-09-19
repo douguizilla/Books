@@ -11,5 +11,7 @@
     <string name="text_book_pages">Number of pages</string>
     <string name="text_book_author">Author</string>
     <string name="text_book_title">Title</string>
+    <string name="button_google_sign_in">Login com Google</string>
+    <string name="error_google_sign_in">Login com Google</string>
 
 </resources>
